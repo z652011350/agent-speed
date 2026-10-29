@@ -1214,8 +1214,9 @@ column as submenu chevrons, so checked and unchecked items never shift the text:
    `orbs.unit.cost` (section 9), `orbs.traffic` ▸ `orbs.traffic.sources` / `orbs.traffic.machine` /
    `orbs.traffic.intelligence` / `orbs.traffic.off` (section 10) and `orbs.showName`, checked when the orb's name
    plate shows (Name plate).
-4. `menu.size` ▸ `menu.size.small` / `.medium` / `.large` (112 / 148 / 196; any size between 64 and 240 is set in
-   Settings).
+4. `menu.size` ▸ `menu.size.small` / `.medium` / `.large` (112 / 148 / 196), a separator, then a continuous slider over
+   the style's range (64–240 pt, 4 pt steps) with its value in pt at the trailing edge; dragging resizes the orb as the
+   thumb moves.
 5. `menu.effects` ▸ Off / Soft / Standard / Max (global).
 6. Separator; `menu.alwaysOnTop`, `menu.clickThrough` (this orb).
 7. Separator; `orbs.add`; `menu.orb.duplicate`; `menu.orb.split` (enabled when the orb tracks two or more available
